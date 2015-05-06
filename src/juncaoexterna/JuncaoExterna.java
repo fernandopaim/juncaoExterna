@@ -37,7 +37,7 @@ public class JuncaoExterna {
             String line = fita.readLine();
         
             while (line != null) {
-                for (StringTokenizer stringTokenizer = new StringTokenizer(line); stringTokenizer.hasMoreTokens();) {
+                for (StringTokenizer stringTokenizer = new StringTokenizer(line);stringTokenizer.hasMoreTokens();) {
                     String token = stringTokenizer.nextToken();
                     System.out.println(token);
                 }
